@@ -80,3 +80,4 @@ D:\Public\dotnet-learn\loyaltyentity\bin\EntityFramework.dll
 D:\Public\dotnet-learn\loyaltyentity\bin\EntityFramework.SqlServer.dll
 D:\Public\dotnet-learn\loyaltyentity\bin\EntityFramework.xml
 D:\Public\dotnet-learn\loyaltyentity\bin\EntityFramework.SqlServer.xml
+D:\Public\dotnet-learn\loyaltyentity\obj\Debug\loyaltyentity.csprojAssemblyReference.cache

@@ -1,0 +1,114 @@
+﻿@model loyaltyentity.Models.CustomerCF
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CustomerCF</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.postcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.postcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telephone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telephone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Created_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Created_at)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Updated_at)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Updated_at)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
